@@ -30,6 +30,12 @@
         "transform": "none"
     },
     {
+        "name": "tiktok",
+        "displayName": "TikTok",
+        "template": "https://www.tiktok.com/search?q=%s",
+        "transform": "percent20"
+    },
+    {
         "name": "yahoo",
         "displayName": "Yahoo",
         "template": "https://search.yahoo.com/search?p=%s",
@@ -63,6 +69,30 @@
         "name": "amazon",
         "displayName": "Amazon",
         "template": "https://www.amazon.com/s?k=%s",
+        "transform": "plus"
+    },
+    {
+        "name": "dua",
+        "displayName": "The Dua Brand",
+        "template": "https://theduabrand.com/search?q=%s",
+        "transform": "plus"
+    },
+    {
+        "name": "mercari",
+        "displayName": "Mercari",
+        "template": "https://www.mercari.com/search/?keyword=%s",
+        "transform": "percent20"
+    },
+    {
+        "name": "bbw",
+        "displayName": "Bath and Body Works",
+        "template": "https://www.bathandbodyworks.com/search?q=%s",
+        "transform": "percent20"
+    },
+    {
+        "name": "google_scholar",
+        "displayName": "Google Scholar",
+        "template": "https://scholar.google.com/scholar?q=%s",
         "transform": "plus"
     }
 ]
