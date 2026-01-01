@@ -5,7 +5,7 @@ const transformMap = {
   none: q => encodeURIComponent(q),
   dash: q => encodeURIComponent(q.trim().replace(/\s+/g, '-')),
   plus: q => encodeURIComponent(q.trim().replace(/\s+/g, '+')),
-  percent20: q => encodeURIComponent(q.trim().replace(/\s+/g, '%20'))
+  percent20: q => encodeURIComponent(q.trim())
 };
 
 // Load config and build engines

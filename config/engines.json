@@ -1,56 +1,68 @@
 [
-  {
-    "name": "google",
-    "displayName": "Google",
-    "template": "https://www.google.com/search?q=%s",
-    "transform": "none"
-  },
-  {
-    "name": "ddg",
-    "displayName": "DuckDuckGo",
-    "template": "https://duckduckgo.com/?q=%s",
-    "transform": "none"
-  },
-  {
-    "name": "perplexity",
-    "displayName": "Perplexity",
-    "template": "https://www.perplexity.ai/search?q=%s",
-    "transform": "none"
-  },
-  {
-    "name": "youtube",
-    "displayName": "YouTube",
-    "template": "https://www.youtube.com/results?search_query=%s",
-    "transform": "none"
-  },
-  {
-    "name": "yahoo",
-    "displayName": "Yahoo",
-    "template": "https://search.yahoo.com/search?p=%s",
-    "transform": "none"
-  },
-  {
-    "name": "aliexpress_us",
-    "displayName": "AliExpress US",
-    "template": "https://www.aliexpress.us/w/wholesale-%s.html",
-    "transform": "dash"
-  },
-  {
-    "name": "ebay",
-    "displayName": "eBay",
-    "template": "https://www.ebay.com/sch/i.html?_nkw=%s",
-    "transform": "plus"
-  },
-  {
-    "name": "facebook_marketplace",
-    "displayName": "Facebook Marketplace",
-    "template": "https://www.facebook.com/marketplace/search?query=%s",
-    "transform": "percent20"
-  },
-  {
-    "name": "temu",
-    "displayName": "Temu",
-    "template": "https://www.temu.com/search_result.html?search_key=%s",
-    "transform": "percent20"
-  }
+    {
+        "name": "brave",
+        "displayName": "Brave",
+        "template": "https://search.brave.com/search?q=%s",
+        "transform": "plus"
+    },
+    {
+        "name": "google",
+        "displayName": "Google",
+        "template": "https://www.google.com/search?q=%s",
+        "transform": "none"
+    },
+    {
+        "name": "ddg",
+        "displayName": "DuckDuckGo",
+        "template": "https://duckduckgo.com/?q=%s",
+        "transform": "none"
+    },
+    {
+        "name": "perplexity",
+        "displayName": "Perplexity",
+        "template": "https://www.perplexity.ai/search?q=%s",
+        "transform": "none"
+    },
+    {
+        "name": "youtube",
+        "displayName": "YouTube",
+        "template": "https://www.youtube.com/results?search_query=%s",
+        "transform": "none"
+    },
+    {
+        "name": "yahoo",
+        "displayName": "Yahoo",
+        "template": "https://search.yahoo.com/search?p=%s",
+        "transform": "none"
+    },
+    {
+        "name": "aliexpress_us",
+        "displayName": "AliExpress US",
+        "template": "https://www.aliexpress.us/w/wholesale-%s.html",
+        "transform": "dash"
+    },
+    {
+        "name": "ebay",
+        "displayName": "eBay",
+        "template": "https://www.ebay.com/sch/i.html?_nkw=%s",
+        "transform": "plus"
+    },
+    {
+        "name": "facebook_marketplace",
+        "displayName": "Facebook Marketplace",
+        "template": "https://www.facebook.com/marketplace/search?query=%s",
+        "transform": "percent20"
+    },
+    {
+        "name": "temu",
+        "displayName": "Temu",
+        "template": "https://www.temu.com/search_result.html?search_key=%s",
+        "transform": "percent20"
+    },
+    {
+        "name": "amazon",
+        "displayName": "Amazon",
+        "template": "https://www.amazon.com/s?k=%s",
+        "transform": "plus"
+    }
 ]
