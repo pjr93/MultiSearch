@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "MultiSearch",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["tabs", "windows", "storage", "nativeMessaging", "activeTab", "favicon"],
+  "omnibox": { "keyword": "ms" },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["config/engines.json"],
+    "matches": ["<all_urls>"]
+  }]
+}
